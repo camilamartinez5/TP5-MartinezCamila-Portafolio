@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--Fuentes-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">    
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyV7oQPJkl9QevSCWe3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!--Boxicons https://boxicons.com/?query=htm-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>My Portafolio</title>
+</head>
+<body>
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <a href="#">
+            <p class="logo">Martinez Camila</p>
+        </a>
+        <i class="bx bx-menu navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"></i>
+        <div class="collapse navbar-collapse text-uppercase" id="navbarNav">
+            <ul class=" navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link about" href="#about">Acerca De</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link works" href="#works">Mis Trabajos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link skills" href="#skills">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link certificates" href="#certificates">Certificados</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Presentacion-->
+    <section id="jumbotron">
+    <div class="container d-flex flex-column justify-content-center align-items-center text-center min-vh-100">
+        <h6 class="text-uppercase fw-bold">Hola</h6>
+        <h1 class="texto1">Te presento <span class="fw-bold">Mi Portafolio</span></h1>
+        <h3 class="texto1">Soy una <span class="text-primary type"></span></h3>
+        <a href="https://www.canva.com/design/DAGBS-B3Udw/04Kh7Wqy3j0h2RhhHd1TXg/edit?utm_content=DAGBS-B3Udw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" class="btn btn-primary mt-4 rounded-pill py-2 px-4">Descarga mi CV</a>
+        <div class="sosmed d-flex flex-row mt-3 justify-content-center">
+            <a href="#" class="mx-2 rounded-circle btn btn-outline-primary"><i class='bx bxl-facebook' style='color:#0063ef'></i></a>
+            <a href="#" class="mx-2 rounded-circle btn btn-outline-danger"><i class='bx bxl-youtube' style='color:#ef0043'></i></a>
+            <a href="#" class="mx-2 rounded-circle btn btn-outline-warning"><i class='bx bx-envelope-open' style='color:#efda00'></i></a>
+        </div>
+    </div>
+    </section>
+
+    <!--Inicio acerca de mi-->
+    <section id="about" class="py-2">
+        <div class="container">
+            <div class="row py-2">
+                <div class="col-md">
+                    <img src="img/logo.png" class="rounded mx-auto d-block" alt="yo">
+                </div>
+                <div class="col-md">
+                    <h4 class="mt-2 mb-2 text-lg-center">Acerca De Mi</h4>
+                    <p class="text-lg-center">
+                        Me llamo Camila Berenice Martinez, tengo 19 años, mis estudios
+                        primarios los curse en la Escuela Normal Gendarmeria Nacional y
+                        luego mis estudios secundarios los curse en la Escuela De Minas
+                        "Dr. Horacio Carrillo", ingrese en el año 2019 realizando un examen
+                        eliminatorio y egrese en el año 2024. 
+                        Obtuve un titulo de Tecnica en Informatica y ahora me encuentro culminando
+                        mis estudios universitarios en la Universidad Nacional de Jujuy sede La Quiaca
+                        cursando la carrera de pregrado "Analista Programador Universitario".
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Inicio Mis trabajos-->
+    <section id="works" class="py-5">
+        <div class="container">
+            <h4 class="text-light text-center mb-3">Mis Trabajos</h4>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href=""><img src="img/trabajo1.png" class="my-2 rounded" alt=""></a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://camilamartinez5.github.io/TP2-MartinezCamila-Replicakentucky/"><img src="img/trabajo2.png" class="my-2 rounded" alt=""></a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://camilamartinez5.github.io/TP2-MartinezCamila/"><img src="img/proyecto1.png" class="my-2 rounded" alt=""></a>
+                </div>
+                <div class="col-md-4">
+                    <a href=""><img src="img/proyecto3.png" class="my-2 rounded" alt=""></a>
+                </div>
+                <div class="col-md-4">
+                    <a href=""><img src="img/proyecto4.png" class="my-2 rounded" alt=""></a>
+                </div>
+                <div class="col-md-4">
+                    <a href=""><img src="img/proyecto2.png" class="my-2 rounded" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Inicio Mis habilidades-->
+    <section id="skills" class="py-2">
+        <div class="container">
+            <h4 class="text-center mb-3">Conocimientos</h4>
+            <div class="row">
+                <div class="col-md">
+                    <div class="w-auto mx-auto shadow p-3 my-3 bg-body rounded">
+                        <i class="mb-2 fs-1 bx bxl-html5" style="color: #fb7f05;"></i>
+                        <h5>HTML</h5>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="w-auto mx-auto shadow p-3 my-3 bg-body rounded">
+                        <i class="mb-2 fs-1 bx bxl-css3" style="color: #052efb;"></i>
+                        <h5>CSS</h5>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="w-auto mx-auto shadow p-3 my-3 bg-body rounded">
+                        <i class="mb-2 fs-1 bx bxl-bootstrap" style="color: #8400ff;"></i>
+                        <h5>Bootstrap</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Inicio de Certificados-->
+    <section id="certificates" class="py-2">
+        <div class="container">
+            <h4 class="text-light text-center">Certificados</h4>
+            <div id="carouselExampleControls" class="carousel slide" data-be-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/Certificado1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Certificado2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Certificado3.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!--Inicio de Contacto-->
+    <section id="contact" class="py-5">
+        <div class="container d-flex flex column justify-content-center align-items-center">
+            <h1>Trabajemos Juntos</h1>
+            <a href="mailto:camilaberenicemartinez8@gmail.com" class="btn btn-primary mt-4 rounded-pill py-2 px-4">Contactame</a>
+        </div>
+    </section>
+    <section id="contacto">
+        <div class="contenedor">
+            <form action="enviarFormulario()" method="post" enctype="multipart/form-data">
+                <input type="text" placeholder="Nombre" name="nombre" required>
+                <input type="text" placeholder="Email" name="email" required>
+                <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+                <input type="submit" class="btn btn-primary mt-4 mb-2 rounded-pill py-2 px-4" value="Enviar Mensaje">
+            </form>
+        </div>
+    </section>
+
+    <!--Inicio de footer-->
+    <footer class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 mb-3">
+                    <a href="#" class="fs-5 fw-bold text-light text-decoration-none">
+                        <p class="logo">Martinez Camila</p>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <ul class="p-0">
+                        <li class="fs-5 text-light">Navegacion rapida</li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light about" href="#about">Acerca De</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light works" href="#works">Mis Trabajos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light skills" href="#skills">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light certificates" href="#certificates">Certificados</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="bg-light">
+            <p class="text-center text-light"> &copy; 2024<a href="#">Responsive Web Desing - PySW - LQ</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</body>
+</html>
